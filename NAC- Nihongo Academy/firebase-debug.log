@@ -1,0 +1,69 @@
+[debug] [2026-11-06T01:15:13.388Z] ----------------------------------------------------------------------
+[debug] [2026-11-06T01:15:13.409Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Anjus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-11-06T01:15:13.410Z] CLI Version:   15.35.0
+[debug] [2026-11-06T01:15:13.410Z] Platform:      win32
+[debug] [2026-11-06T01:15:13.410Z] Node Version:  v24.15.0
+[debug] [2026-11-06T01:15:13.410Z] Detected Agent: unknown
+[debug] [2026-11-06T01:15:13.410Z] Time:          Thu Nov 05 2026 22:15:13 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2026-11-06T01:15:13.411Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Anjus\Desktop\NAC- Nihongo Academy
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-11-06T01:16:01.490Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-11-06T01:16:01.491Z] > authorizing via signed-in user (edfonsecasilveira@gmail.com)
+[debug] [2026-11-06T01:16:01.529Z] Checked if tokens are valid: false, expires at: 1793927673174
+[debug] [2026-11-06T01:16:01.530Z] Checked if tokens are valid: false, expires at: 1793927673174
+[debug] [2026-11-06T01:16:01.530Z] > refreshing access token with scopes: []
+[debug] [2026-11-06T01:16:01.534Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-11-06T01:16:01.534Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-11-06T01:16:01.885Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-11-06T01:16:01.886Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-11-06T01:16:01.905Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project-69141f00-01a8-453b-887 [none]
+[debug] [2026-11-06T01:16:02.362Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project-69141f00-01a8-453b-887 200
+[debug] [2026-11-06T01:16:02.362Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project-69141f00-01a8-453b-887 {"projectId":"project-69141f00-01a8-453b-887","projectNumber":"61660361576","displayName":"My First Project","name":"projects/project-69141f00-01a8-453b-887","resources":{"hostingSite":"project-69141f00-01a8-453b-887"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_b22c003d-5d3b-4823-ade5-8e4f9bd0a754"}
+[info] i  Using project project-69141f00-01a8-453b-887 (My First Project) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-11-06T01:16:02.393Z] Checked if tokens are valid: true, expires at: 1793931360886
+[debug] [2026-11-06T01:16:02.393Z] Checked if tokens are valid: true, expires at: 1793931360886
+[debug] [2026-11-06T01:16:02.394Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project-69141f00-01a8-453b-887 [none]
+[debug] [2026-11-06T01:16:02.745Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project-69141f00-01a8-453b-887 200
+[debug] [2026-11-06T01:16:02.745Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project-69141f00-01a8-453b-887 {"projectId":"project-69141f00-01a8-453b-887","projectNumber":"61660361576","displayName":"My First Project","name":"projects/project-69141f00-01a8-453b-887","resources":{"hostingSite":"project-69141f00-01a8-453b-887"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_b22c003d-5d3b-4823-ade5-8e4f9bd0a754"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Anjus\Desktop\NAC- Nihongo Academy is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=939009896&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2026-11-06T01:16:23.503Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2026-11-06T01:16:23.503Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2026-11-06T01:16:23.867Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2026-11-06T01:16:23.868Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2026-11-06T01:16:23.878Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2026-11-06T01:16:24.323Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2026-11-06T01:16:24.323Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"edfonsecasilveira","id":260253226,"node_id":"U_kgDOD4MmKg","avatar_url":"https://avatars.githubusercontent.com/u/260253226?v=4","gravatar_id":"","url":"https://api.github.com/users/edfonsecasilveira","html_url":"https://github.com/edfonsecasilveira","followers_url":"https://api.github.com/users/edfonsecasilveira/followers","following_url":"https://api.github.com/users/edfonsecasilveira/following{/other_user}","gists_url":"https://api.github.com/users/edfonsecasilveira/gists{/gist_id}","starred_url":"https://api.github.com/users/edfonsecasilveira/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/edfonsecasilveira/subscriptions","organizations_url":"https://api.github.com/users/edfonsecasilveira/orgs","repos_url":"https://api.github.com/users/edfonsecasilveira/repos","events_url":"https://api.github.com/users/edfonsecasilveira/events{/privacy}","received_events_url":"https://api.github.com/users/edfonsecasilveira/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2026-02-08T15:31:14Z","updated_at":"2026-08-19T17:27:32Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":143,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as edfonsecasilveira 
+[info] 
